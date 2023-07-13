@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
 		{
 			str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
-			sum *= str_to_int;
+			sum += str_to_int;
 		}
 
 		/*condition if one of the number contains symbols that are not digits*/
