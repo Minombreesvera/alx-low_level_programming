@@ -20,6 +20,7 @@ int check_num(char *str)
 		{
 			return (0);
 		}
+
 		count++;
 	}
 	return (1);
@@ -51,7 +52,7 @@ int main(int argc, char *argv[])
 		/*condition if one of the number contains symbols that are not digits*/
 		else
 		{
-			printf("ERROR\n");
+			printf("Error\n");
 			return (1);
 		}
 
